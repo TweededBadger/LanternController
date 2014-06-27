@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+    <title>ColorPicker - jQuery plugin</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript"  src='js/spectrum.js'></script>
+    <script type="text/javascript"  src='js/knockout-2.3.0.js'></script>
+    <link rel='stylesheet' href='css/spectrum.css' />
+
+    <style>
+        * {
+
+            margin:0;
+            padding:0;
+        }
+
+        #colourlist {
+
+        }
+        #colourlist li {
+            margin-bottom: 5px;
+
+        }
+        #colourlist a {
+           display: block;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button id="button_change_frequency">Change Frequency</button>
+    </div>
+    <ul data-bind="foreach: colours" id="colourlist">
+        <li data-bind="style:{backgroundColor:colstring}">
+            <a href="#" class="colourbutton">&nbsp;</a>
+        </li>
+
+    </ul>
+    <div class="wrapper">
+
+
+
+    <div>
+                <input type='text' class="color1"/>
+                <input type='text' class="color2"/>
+                    <em id='basic-log'></em>
+                 </div>
+                <button id="sendbutton">SEND</button>
+
+
+                <script>
+
+                    var newr  = 0;
+                    var newg  = 0;
+                    var newb  = 0;
+
+                    var newr2  = 0;
+                    var newg2  = 0;
+                    var newb2  = 0;
+
+
+                    $(document).ready(init);
+
+                    var colours;
+
+                    var cm;
+
+                    function init() {
+                        cm = new coloursModel();
+                        ko.applyBindings(cm);
+                        cm.getColours();
+
+
+                        $("#colourlist").delegate(".colourbutton","click",function(){
+                             var context = ko.contextFor(this);
+                            console.log(context.$data);
+                            handleListClick(context.$data);
+                        });
+
+
+                         $("#sendbutton").click(function() {
+                                $.post("/addColour/", {
+                                    r: newr,
+                                    g: newg,
+                                    b: newb
+                                },function(){
+                                    cm.getColours();
+                                });
+                            });
+
+                        $("#button_change_frequency").click(function(){
+                            $.post("/test/", {
+
+                                },function(data){
+                                    console.log(data);
+                                });
+                        });
+
+
+
+                    }
+
+                    function handleListClick(data) {
+                         $.post("/changeColour/", {
+                             mode:1,
+                            r: data.red,
+                            g: data.green,
+                            b: data.blue
+                        })
+                    }
+
+                    function coloursModel() {
+                            var self = this;
+                            self.colours = ko.observableArray();
+
+                            self.getColours = function() {
+
+                                $.getJSON(  "/getColours/",function(data){
+                                    colours = data;
+                                    console.log(colours);
+                                    var mappedData = $.map(data,function(item){
+                                        return new Colour(item);
+                                    });
+                                    self.colours(mappedData);
+                                });
+                            }
+                        }
+                    function Colour(data) {
+                        this.id = data.id;
+                        this.red = data.red;
+                        this.green = data.green;
+                        this.blue = data.blue;
+                        this.colstring = "rgb("+this.red+","+this.green+","+this.blue+")";
+                    }
+                    function getColours() {
+                        $.getJSON(  "/getColours/",function(data){
+                            colours = data;
+                            console.log(colours);
+                        });
+
+
+                    }
+
+
+
+
+                    $(".color1").spectrum({
+                        color: "#f00",
+                         flat: true,
+                        /*showPalette: true,
+                        palette: [
+                            ['black', 'white', 'blanchedalmond'],
+                            ['rgb(255, 128, 0);', 'hsv 100 70 50', 'lightyellow']
+                        ],*/
+                        change: function(color) {
+                            console.log(color.toRgb());
+                            newr = color.toRgb().r;
+                            newg = color.toRgb().g;
+                            newb = color.toRgb().b;
+                            $("#basic-log").text("change called: " + color.toHexString());
+                           // postColours();
+                            postToArduino(1,newr,newg,newb);
+                        }
+                    });
+                    $(".color2").spectrum({
+                        color: "#f00",
+                         flat: true,
+                        /*showPalette: true,
+                        palette: [
+                            ['black', 'white', 'blanchedalmond'],
+                            ['rgb(255, 128, 0);', 'hsv 100 70 50', 'lightyellow']
+                        ],*/
+                        change: function(color) {
+                            console.log(color.toRgb());
+                            newr2 = color.toRgb().r;
+                            newg2 = color.toRgb().g;
+                            newb2 = color.toRgb().b;
+                            $("#basic-log").text("change called: " + color.toHexString());
+                            postColours();
+
+                        }
+                    });
+
+
+                    function postToArduino(mode,r,g,b) {
+                         $.post("/changeColour/", {
+                                r: r,
+                                g: g,
+                                b: b
+                            })
+
+                    }
+
+                    function postColours() {
+
+                        $.post("/test/", {
+                                r: newr2,
+                                g: newg2,
+                                b: newb2,
+                                r2: newr,
+                                g2: newg,
+                                b2: newb
+                            })
+
+                    }
+</script>
+
+
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,1653 @@
+[04/Sep/2013:22:40:59] ENGINE Listening for SIGTERM.
+[04/Sep/2013:22:40:59] ENGINE Bus STARTING
+[04/Sep/2013:22:40:59] ENGINE Set handler for console events.
+[04/Sep/2013:22:40:59] ENGINE Started monitor thread '_TimeoutMonitor'.
+[04/Sep/2013:22:41:04] ENGINE Error in 'start' listener <bound method Server.start of <cherrypy._cpserver.Server object at 0x0000000002FE5630>>
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\process\wspbus.py", line 197, in publish
+    output.append(listener(*args, **kwargs))
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpserver.py", line 151, in start
+    ServerAdapter.start(self)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\process\servers.py", line 168, in start
+    wait_for_free_port(*self.bind_addr)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\process\servers.py", line 412, in wait_for_free_port
+    raise IOError("Port %r not free on %r" % (port, host))
+IOError: Port 8080 not free on '127.0.0.1'
+
+[04/Sep/2013:22:41:04] ENGINE Shutting down due to error in start listener:
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\process\wspbus.py", line 235, in start
+    self.publish('start')
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\process\wspbus.py", line 215, in publish
+    raise exc
+ChannelFailures: IOError("Port 8080 not free on '127.0.0.1'",)
+
+[04/Sep/2013:22:41:04] ENGINE Bus STOPPING
+[04/Sep/2013:22:41:04] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) already shut down
+[04/Sep/2013:22:41:04] ENGINE Stopped thread '_TimeoutMonitor'.
+[04/Sep/2013:22:41:04] ENGINE Removed handler for console events.
+[04/Sep/2013:22:41:04] ENGINE Bus STOPPED
+[04/Sep/2013:22:41:04] ENGINE Bus EXITING
+[04/Sep/2013:22:41:04] ENGINE Bus EXITED
+[04/Sep/2013:22:42:29] ENGINE Listening for SIGTERM.
+[04/Sep/2013:22:42:29] ENGINE Bus STARTING
+[04/Sep/2013:22:42:29] ENGINE Set handler for console events.
+[04/Sep/2013:22:42:29] ENGINE Started monitor thread '_TimeoutMonitor'.
+[04/Sep/2013:22:42:29] ENGINE Serving on 127.0.0.1:8099
+[04/Sep/2013:22:42:29] ENGINE Bus STARTED
+[04/Sep/2013:22:48:10] ENGINE Listening for SIGTERM.
+[04/Sep/2013:22:48:10] ENGINE Bus STARTING
+[04/Sep/2013:22:48:10] ENGINE Set handler for console events.
+[04/Sep/2013:22:48:10] ENGINE Started monitor thread '_TimeoutMonitor'.
+[04/Sep/2013:22:48:11] ENGINE Serving on 127.0.0.1:8099
+[04/Sep/2013:22:48:11] ENGINE Bus STARTED
+[04/Sep/2013:23:04:33] ENGINE Listening for SIGTERM.
+[04/Sep/2013:23:04:33] ENGINE Bus STARTING
+[04/Sep/2013:23:04:33] ENGINE Set handler for console events.
+[04/Sep/2013:23:04:33] ENGINE Started monitor thread '_TimeoutMonitor'.
+[04/Sep/2013:23:04:33] ENGINE Serving on 127.0.0.1:8099
+[04/Sep/2013:23:04:33] ENGINE Bus STARTED
+[04/Sep/2013:23:06:19] ENGINE Listening for SIGTERM.
+[04/Sep/2013:23:06:19] ENGINE Bus STARTING
+[04/Sep/2013:23:06:19] ENGINE Set handler for console events.
+[04/Sep/2013:23:06:19] ENGINE Started monitor thread '_TimeoutMonitor'.
+[04/Sep/2013:23:06:20] ENGINE Serving on 127.0.0.1:8099
+[04/Sep/2013:23:06:20] ENGINE Bus STARTED
+[04/Sep/2013:23:17:06] ENGINE Listening for SIGTERM.
+[04/Sep/2013:23:17:06] ENGINE Bus STARTING
+[04/Sep/2013:23:17:06] ENGINE Set handler for console events.
+[04/Sep/2013:23:17:06] ENGINE Started monitor thread '_TimeoutMonitor'.
+[04/Sep/2013:23:17:06] ENGINE Serving on 127.0.0.1:8099
+[04/Sep/2013:23:17:06] ENGINE Bus STARTED
+[04/Sep/2013:23:17:42] ENGINE Listening for SIGTERM.
+[04/Sep/2013:23:17:42] ENGINE Bus STARTING
+[04/Sep/2013:23:17:42] ENGINE Set handler for console events.
+[04/Sep/2013:23:17:42] ENGINE Started monitor thread '_TimeoutMonitor'.
+[04/Sep/2013:23:17:42] ENGINE Serving on 127.0.0.1:8099
+[04/Sep/2013:23:17:42] ENGINE Bus STARTED
+[04/Sep/2013:23:18:26] ENGINE Listening for SIGTERM.
+[04/Sep/2013:23:18:26] ENGINE Bus STARTING
+[04/Sep/2013:23:18:26] ENGINE Set handler for console events.
+[04/Sep/2013:23:18:26] ENGINE Started monitor thread '_TimeoutMonitor'.
+[04/Sep/2013:23:18:26] ENGINE Serving on 127.0.0.1:8099
+[04/Sep/2013:23:18:26] ENGINE Bus STARTED
+[04/Sep/2013:23:21:12] ENGINE Listening for SIGTERM.
+[04/Sep/2013:23:21:12] ENGINE Bus STARTING
+[04/Sep/2013:23:21:12] ENGINE Set handler for console events.
+[04/Sep/2013:23:21:12] ENGINE Started monitor thread '_TimeoutMonitor'.
+[04/Sep/2013:23:21:13] ENGINE Serving on 127.0.0.1:8099
+[04/Sep/2013:23:21:13] ENGINE Bus STARTED
+[04/Sep/2013:23:24:12] ENGINE Listening for SIGTERM.
+[04/Sep/2013:23:24:12] ENGINE Bus STARTING
+[04/Sep/2013:23:24:12] ENGINE Set handler for console events.
+[04/Sep/2013:23:24:12] ENGINE Started monitor thread '_TimeoutMonitor'.
+[04/Sep/2013:23:24:12] ENGINE Serving on 127.0.0.1:8099
+[04/Sep/2013:23:24:12] ENGINE Bus STARTED
+[04/Sep/2013:23:24:39] ENGINE Listening for SIGTERM.
+[04/Sep/2013:23:24:39] ENGINE Bus STARTING
+[04/Sep/2013:23:24:39] ENGINE Set handler for console events.
+[04/Sep/2013:23:24:39] ENGINE Started monitor thread '_TimeoutMonitor'.
+[04/Sep/2013:23:24:39] ENGINE Serving on 127.0.0.1:8099
+[04/Sep/2013:23:24:39] ENGINE Bus STARTED
+[04/Sep/2013:23:25:34] ENGINE Listening for SIGTERM.
+[04/Sep/2013:23:25:34] ENGINE Bus STARTING
+[04/Sep/2013:23:25:34] ENGINE Set handler for console events.
+[04/Sep/2013:23:25:34] ENGINE Started monitor thread '_TimeoutMonitor'.
+[04/Sep/2013:23:25:34] ENGINE Serving on 127.0.0.1:8099
+[04/Sep/2013:23:25:34] ENGINE Bus STARTED
+[04/Sep/2013:23:28:07] ENGINE Listening for SIGTERM.
+[04/Sep/2013:23:28:07] ENGINE Bus STARTING
+[04/Sep/2013:23:28:07] ENGINE Set handler for console events.
+[04/Sep/2013:23:28:07] ENGINE Started monitor thread '_TimeoutMonitor'.
+[04/Sep/2013:23:28:07] ENGINE Serving on 127.0.0.1:8099
+[04/Sep/2013:23:28:07] ENGINE Bus STARTED
+[04/Sep/2013:23:30:00] ENGINE Listening for SIGTERM.
+[04/Sep/2013:23:30:00] ENGINE Bus STARTING
+[04/Sep/2013:23:30:00] ENGINE Set handler for console events.
+[04/Sep/2013:23:30:00] ENGINE Started monitor thread '_TimeoutMonitor'.
+[04/Sep/2013:23:30:00] ENGINE Serving on 127.0.0.1:8099
+[04/Sep/2013:23:30:00] ENGINE Bus STARTED
+[04/Sep/2013:23:30:26] ENGINE Listening for SIGTERM.
+[04/Sep/2013:23:30:26] ENGINE Bus STARTING
+[04/Sep/2013:23:30:26] ENGINE Set handler for console events.
+[04/Sep/2013:23:30:26] ENGINE Started monitor thread '_TimeoutMonitor'.
+[04/Sep/2013:23:30:26] ENGINE Serving on 127.0.0.1:8099
+[04/Sep/2013:23:30:26] ENGINE Bus STARTED
+[04/Sep/2013:23:38:17] ENGINE Listening for SIGTERM.
+[04/Sep/2013:23:38:17] ENGINE Bus STARTING
+[04/Sep/2013:23:38:17] ENGINE Set handler for console events.
+[04/Sep/2013:23:38:17] ENGINE Started monitor thread '_TimeoutMonitor'.
+[04/Sep/2013:23:38:17] ENGINE Serving on 127.0.0.1:8099
+[04/Sep/2013:23:38:17] ENGINE Bus STARTED
+[04/Sep/2013:23:44:38] ENGINE Listening for SIGTERM.
+[04/Sep/2013:23:44:38] ENGINE Bus STARTING
+[04/Sep/2013:23:44:38] ENGINE Set handler for console events.
+[04/Sep/2013:23:44:38] ENGINE Started monitor thread '_TimeoutMonitor'.
+[04/Sep/2013:23:44:38] ENGINE Serving on 127.0.0.1:8099
+[04/Sep/2013:23:44:38] ENGINE Bus STARTED
+[04/Sep/2013:23:58:16] ENGINE Listening for SIGTERM.
+[04/Sep/2013:23:58:16] ENGINE Bus STARTING
+[04/Sep/2013:23:58:16] ENGINE Set handler for console events.
+[04/Sep/2013:23:58:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+[04/Sep/2013:23:58:17] ENGINE Serving on 127.0.0.1:8099
+[04/Sep/2013:23:58:17] ENGINE Bus STARTED
+[05/Sep/2013:00:01:49] ENGINE Listening for SIGTERM.
+[05/Sep/2013:00:01:49] ENGINE Bus STARTING
+[05/Sep/2013:00:01:49] ENGINE Set handler for console events.
+[05/Sep/2013:00:01:49] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Sep/2013:00:01:49] ENGINE Serving on 127.0.0.1:8099
+[05/Sep/2013:00:01:49] ENGINE Bus STARTED
+[05/Sep/2013:00:02:46] ENGINE Listening for SIGTERM.
+[05/Sep/2013:00:02:46] ENGINE Bus STARTING
+[05/Sep/2013:00:02:46] ENGINE Set handler for console events.
+[05/Sep/2013:00:02:46] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Sep/2013:00:02:47] ENGINE Serving on 127.0.0.1:8099
+[05/Sep/2013:00:02:47] ENGINE Bus STARTED
+[05/Sep/2013:00:05:30] ENGINE Listening for SIGTERM.
+[05/Sep/2013:00:05:30] ENGINE Bus STARTING
+[05/Sep/2013:00:05:30] ENGINE Set handler for console events.
+[05/Sep/2013:00:05:30] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Sep/2013:00:05:30] ENGINE Serving on 127.0.0.1:8099
+[05/Sep/2013:00:05:30] ENGINE Bus STARTED
+[05/Sep/2013:00:06:14] ENGINE Listening for SIGTERM.
+[05/Sep/2013:00:06:14] ENGINE Bus STARTING
+[05/Sep/2013:00:06:14] ENGINE Set handler for console events.
+[05/Sep/2013:00:06:14] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Sep/2013:00:06:14] ENGINE Serving on 0.0.0.0:8099
+[05/Sep/2013:00:06:14] ENGINE Bus STARTED
+[05/Sep/2013:20:03:02] ENGINE Listening for SIGTERM.
+[05/Sep/2013:20:03:02] ENGINE Bus STARTING
+[05/Sep/2013:20:03:02] ENGINE Set handler for console events.
+[05/Sep/2013:20:03:02] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Sep/2013:20:03:03] ENGINE Serving on 0.0.0.0:8099
+[05/Sep/2013:20:03:03] ENGINE Bus STARTED
+[05/Sep/2013:21:04:31] ENGINE Listening for SIGTERM.
+[05/Sep/2013:21:04:31] ENGINE Bus STARTING
+[05/Sep/2013:21:04:31] ENGINE Set handler for console events.
+[05/Sep/2013:21:04:31] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Sep/2013:21:04:32] ENGINE Serving on 0.0.0.0:8099
+[05/Sep/2013:21:04:32] ENGINE Bus STARTED
+[05/Sep/2013:22:27:18] ENGINE Listening for SIGTERM.
+[05/Sep/2013:22:27:18] ENGINE Bus STARTING
+[05/Sep/2013:22:27:18] ENGINE Set handler for console events.
+[05/Sep/2013:22:27:18] ENGINE Started monitor thread '_TimeoutMonitor'.
+[05/Sep/2013:22:27:18] ENGINE Serving on 0.0.0.0:8099
+[05/Sep/2013:22:27:18] ENGINE Bus STARTED
+[06/Sep/2013:00:54:54] ENGINE Listening for SIGTERM.
+[06/Sep/2013:00:54:54] ENGINE Bus STARTING
+[06/Sep/2013:00:54:54] ENGINE Set handler for console events.
+[06/Sep/2013:00:54:54] ENGINE Started monitor thread '_TimeoutMonitor'.
+[06/Sep/2013:00:54:54] ENGINE Serving on 0.0.0.0:8099
+[06/Sep/2013:00:54:54] ENGINE Bus STARTED
+[06/Sep/2013:00:59:52] ENGINE Listening for SIGTERM.
+[06/Sep/2013:00:59:52] ENGINE Bus STARTING
+[06/Sep/2013:00:59:52] ENGINE Set handler for console events.
+[06/Sep/2013:00:59:52] ENGINE Started monitor thread '_TimeoutMonitor'.
+[06/Sep/2013:00:59:53] ENGINE Serving on 0.0.0.0:8099
+[06/Sep/2013:00:59:53] ENGINE Bus STARTED
+[06/Sep/2013:01:01:06] ENGINE Listening for SIGTERM.
+[06/Sep/2013:01:01:06] ENGINE Bus STARTING
+[06/Sep/2013:01:01:06] ENGINE Set handler for console events.
+[06/Sep/2013:01:01:06] ENGINE Started monitor thread '_TimeoutMonitor'.
+[06/Sep/2013:01:01:07] ENGINE Serving on 0.0.0.0:8099
+[06/Sep/2013:01:01:07] ENGINE Bus STARTED
+[06/Sep/2013:01:12:20] ENGINE Listening for SIGTERM.
+[06/Sep/2013:01:12:20] ENGINE Bus STARTING
+[06/Sep/2013:01:12:20] ENGINE Set handler for console events.
+[06/Sep/2013:01:12:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+[06/Sep/2013:01:12:20] ENGINE Serving on 0.0.0.0:8099
+[06/Sep/2013:01:12:20] ENGINE Bus STARTED
+[06/Sep/2013:01:12:27] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 47, in test
+    self.ardConnection.sendColour(2,r,g,b,r2,g2,b2)
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 15, in sendColour
+    self.ser.write(type+","+r+","+g+","+b+","+r2+","+g2+","+b2+",")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+[06/Sep/2013:01:12:29] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 47, in test
+    self.ardConnection.sendColour(2,r,g,b,r2,g2,b2)
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 15, in sendColour
+    self.ser.write(type+","+r+","+g+","+b+","+r2+","+g2+","+b2+",")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+[06/Sep/2013:01:13:12] ENGINE Listening for SIGTERM.
+[06/Sep/2013:01:13:12] ENGINE Bus STARTING
+[06/Sep/2013:01:13:12] ENGINE Set handler for console events.
+[06/Sep/2013:01:13:12] ENGINE Started monitor thread '_TimeoutMonitor'.
+[06/Sep/2013:01:13:13] ENGINE Serving on 0.0.0.0:8099
+[06/Sep/2013:01:13:13] ENGINE Bus STARTED
+[06/Sep/2013:22:02:46] ENGINE Listening for SIGTERM.
+[06/Sep/2013:22:02:46] ENGINE Bus STARTING
+[06/Sep/2013:22:02:46] ENGINE Set handler for console events.
+[06/Sep/2013:22:02:46] ENGINE Started monitor thread '_TimeoutMonitor'.
+[06/Sep/2013:22:02:46] ENGINE Serving on 0.0.0.0:8099
+[06/Sep/2013:22:02:46] ENGINE Bus STARTED
+[12/Sep/2013:23:03:44] ENGINE Listening for SIGTERM.
+[12/Sep/2013:23:03:44] ENGINE Bus STARTING
+[12/Sep/2013:23:03:44] ENGINE Set handler for console events.
+[12/Sep/2013:23:03:44] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/Sep/2013:23:03:46] ENGINE Serving on 0.0.0.0:8099
+[12/Sep/2013:23:03:46] ENGINE Bus STARTED
+[12/Sep/2013:23:04:16] ENGINE Listening for SIGTERM.
+[12/Sep/2013:23:04:16] ENGINE Bus STARTING
+[12/Sep/2013:23:04:16] ENGINE Set handler for console events.
+[12/Sep/2013:23:04:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/Sep/2013:23:04:16] ENGINE Serving on 0.0.0.0:8099
+[12/Sep/2013:23:04:16] ENGINE Bus STARTED
+[12/Sep/2013:23:04:23] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 52, in getColours
+    colours = self.col.getAllColours()
+  File "F:\Work\Wedding\LanternController\ColourHandler.py", line 35, in getAllColours
+    return colarray
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread.The object was created in thread id 3664 and this is thread id 15548
+
+[12/Sep/2013:23:04:55] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 52, in getColours
+    colours = self.col.getAllColours()
+  File "F:\Work\Wedding\LanternController\ColourHandler.py", line 35, in getAllColours
+    return colarray
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread.The object was created in thread id 3664 and this is thread id 15284
+
+[12/Sep/2013:23:04:55] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 52, in getColours
+    colours = self.col.getAllColours()
+  File "F:\Work\Wedding\LanternController\ColourHandler.py", line 35, in getAllColours
+    return colarray
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread.The object was created in thread id 3664 and this is thread id 15284
+
+[12/Sep/2013:23:05:43] ENGINE Listening for SIGTERM.
+[12/Sep/2013:23:05:43] ENGINE Bus STARTING
+[12/Sep/2013:23:05:43] ENGINE Set handler for console events.
+[12/Sep/2013:23:05:43] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/Sep/2013:23:05:43] ENGINE Serving on 0.0.0.0:8099
+[12/Sep/2013:23:05:43] ENGINE Bus STARTED
+[12/Sep/2013:23:09:09] ENGINE Listening for SIGTERM.
+[12/Sep/2013:23:09:09] ENGINE Bus STARTING
+[12/Sep/2013:23:09:09] ENGINE Set handler for console events.
+[12/Sep/2013:23:09:09] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/Sep/2013:23:09:09] ENGINE Serving on 0.0.0.0:8099
+[12/Sep/2013:23:09:09] ENGINE Bus STARTED
+[12/Sep/2013:23:09:55] ENGINE Listening for SIGTERM.
+[12/Sep/2013:23:09:55] ENGINE Bus STARTING
+[12/Sep/2013:23:09:55] ENGINE Set handler for console events.
+[12/Sep/2013:23:09:55] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/Sep/2013:23:09:55] ENGINE Serving on 0.0.0.0:8099
+[12/Sep/2013:23:09:55] ENGINE Bus STARTED
+[15/Sep/2013:15:00:24] ENGINE Listening for SIGTERM.
+[15/Sep/2013:15:00:24] ENGINE Bus STARTING
+[15/Sep/2013:15:00:24] ENGINE Set handler for console events.
+[15/Sep/2013:15:00:24] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/Sep/2013:15:00:25] ENGINE Serving on 0.0.0.0:8099
+[15/Sep/2013:15:00:25] ENGINE Bus STARTED
+[15/Sep/2013:15:16:55] ENGINE Listening for SIGTERM.
+[15/Sep/2013:15:16:55] ENGINE Bus STARTING
+[15/Sep/2013:15:16:55] ENGINE Set handler for console events.
+[15/Sep/2013:15:16:55] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/Sep/2013:15:16:55] ENGINE Serving on 0.0.0.0:8099
+[15/Sep/2013:15:16:55] ENGINE Bus STARTED
+[17/Sep/2013:21:50:18] ENGINE Listening for SIGTERM.
+[17/Sep/2013:21:50:18] ENGINE Bus STARTING
+[17/Sep/2013:21:50:18] ENGINE Set handler for console events.
+[17/Sep/2013:21:50:18] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Sep/2013:21:50:19] ENGINE Serving on 0.0.0.0:8099
+[17/Sep/2013:21:50:19] ENGINE Bus STARTED
+[17/Sep/2013:21:50:46] ENGINE Listening for SIGTERM.
+[17/Sep/2013:21:50:46] ENGINE Bus STARTING
+[17/Sep/2013:21:50:46] ENGINE Set handler for console events.
+[17/Sep/2013:21:50:46] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Sep/2013:21:50:46] ENGINE Serving on 0.0.0.0:8099
+[17/Sep/2013:21:50:46] ENGINE Bus STARTED
+[17/Sep/2013:21:51:05] ENGINE Listening for SIGTERM.
+[17/Sep/2013:21:51:05] ENGINE Bus STARTING
+[17/Sep/2013:21:51:05] ENGINE Set handler for console events.
+[17/Sep/2013:21:51:05] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Sep/2013:21:51:05] ENGINE Serving on 0.0.0.0:8099
+[17/Sep/2013:21:51:05] ENGINE Bus STARTED
+[17/Sep/2013:21:51:25] ENGINE Listening for SIGTERM.
+[17/Sep/2013:21:51:25] ENGINE Bus STARTING
+[17/Sep/2013:21:51:25] ENGINE Set handler for console events.
+[17/Sep/2013:21:51:25] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Sep/2013:21:51:25] ENGINE Serving on 0.0.0.0:8099
+[17/Sep/2013:21:51:25] ENGINE Bus STARTED
+[17/Sep/2013:21:52:10] ENGINE Listening for SIGTERM.
+[17/Sep/2013:21:52:10] ENGINE Bus STARTING
+[17/Sep/2013:21:52:10] ENGINE Set handler for console events.
+[17/Sep/2013:21:52:10] ENGINE Started monitor thread '_TimeoutMonitor'.
+[17/Sep/2013:21:52:11] ENGINE Serving on 0.0.0.0:8099
+[17/Sep/2013:21:52:11] ENGINE Bus STARTED
+[25/Sep/2013:21:00:51] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:00:51] ENGINE Bus STARTING
+[25/Sep/2013:21:00:51] ENGINE Set handler for console events.
+[25/Sep/2013:21:00:51] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:00:52] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:00:52] ENGINE Bus STARTED
+[25/Sep/2013:21:04:21] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:04:21] ENGINE Bus STARTING
+[25/Sep/2013:21:04:21] ENGINE Set handler for console events.
+[25/Sep/2013:21:04:21] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:04:21] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:04:21] ENGINE Bus STARTED
+[25/Sep/2013:21:07:20] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:07:20] ENGINE Bus STARTING
+[25/Sep/2013:21:07:20] ENGINE Set handler for console events.
+[25/Sep/2013:21:07:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:07:20] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:07:20] ENGINE Bus STARTED
+[25/Sep/2013:21:07:42] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:07:42] ENGINE Bus STARTING
+[25/Sep/2013:21:07:42] ENGINE Set handler for console events.
+[25/Sep/2013:21:07:42] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:07:43] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:07:43] ENGINE Bus STARTED
+[25/Sep/2013:21:09:12] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:09:12] ENGINE Bus STARTING
+[25/Sep/2013:21:09:12] ENGINE Set handler for console events.
+[25/Sep/2013:21:09:12] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:09:12] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:09:12] ENGINE Bus STARTED
+[25/Sep/2013:21:13:20] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:13:20] ENGINE Bus STARTING
+[25/Sep/2013:21:13:20] ENGINE Set handler for console events.
+[25/Sep/2013:21:13:20] ENGINE Started monitor thread 'Monitor'.
+[25/Sep/2013:21:13:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:13:20] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:13:20] ENGINE Bus STARTED
+[25/Sep/2013:21:13:21] ENGINE Error in background task thread function <bound method Server.loop of <webservice.Server object at 0x0000000003405CC0>>.
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\process\plugins.py", line 485, in run
+    self.function(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 60, in loop
+    newcolour = self.col.getNextColour()
+AttributeError: 'Server' object has no attribute 'col'
+
+[25/Sep/2013:21:13:38] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:13:38] ENGINE Bus STARTING
+[25/Sep/2013:21:13:38] ENGINE Set handler for console events.
+[25/Sep/2013:21:13:38] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:13:38] ENGINE Started monitor thread 'Monitor'.
+[25/Sep/2013:21:13:38] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:13:38] ENGINE Bus STARTED
+[25/Sep/2013:21:13:39] ENGINE Error in background task thread function <bound method Server.loop of <webservice.Server object at 0x00000000033CCCF8>>.
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\process\plugins.py", line 485, in run
+    self.function(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 60, in loop
+    newcolour = self.col.getNextColour()
+  File "F:\Work\Wedding\LanternController\ColourHandler.py", line 22, in getNextColour
+    colarray = self.getAllColours()
+  File "F:\Work\Wedding\LanternController\ColourHandler.py", line 46, in getAllColours
+    return colarray
+ProgrammingError: SQLite objects created in a thread can only be used in that same thread.The object was created in thread id 2984 and this is thread id 16280
+
+[25/Sep/2013:21:16:51] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:16:51] ENGINE Bus STARTING
+[25/Sep/2013:21:16:51] ENGINE Set handler for console events.
+[25/Sep/2013:21:16:51] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:16:51] ENGINE Started monitor thread 'Monitor'.
+[25/Sep/2013:21:16:51] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:16:51] ENGINE Bus STARTED
+[25/Sep/2013:21:17:16] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:17:16] ENGINE Bus STARTING
+[25/Sep/2013:21:17:16] ENGINE Set handler for console events.
+[25/Sep/2013:21:17:16] ENGINE Started monitor thread 'Monitor'.
+[25/Sep/2013:21:17:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:17:16] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:17:16] ENGINE Bus STARTED
+[25/Sep/2013:21:18:25] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:18:25] ENGINE Bus STARTING
+[25/Sep/2013:21:18:25] ENGINE Set handler for console events.
+[25/Sep/2013:21:18:25] ENGINE Started monitor thread 'Monitor'.
+[25/Sep/2013:21:18:25] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:18:26] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:18:26] ENGINE Bus STARTED
+[25/Sep/2013:21:19:51] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:19:51] ENGINE Bus STARTING
+[25/Sep/2013:21:19:51] ENGINE Set handler for console events.
+[25/Sep/2013:21:19:51] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:19:51] ENGINE Started monitor thread 'Monitor'.
+[25/Sep/2013:21:19:51] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:19:52] ENGINE Bus STARTED
+[25/Sep/2013:21:20:32] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:20:32] ENGINE Bus STARTING
+[25/Sep/2013:21:20:32] ENGINE Set handler for console events.
+[25/Sep/2013:21:20:32] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:20:32] ENGINE Started monitor thread 'Monitor'.
+[25/Sep/2013:21:20:32] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:20:32] ENGINE Bus STARTED
+[25/Sep/2013:21:20:54] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:20:54] ENGINE Bus STARTING
+[25/Sep/2013:21:20:54] ENGINE Set handler for console events.
+[25/Sep/2013:21:20:54] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:20:54] ENGINE Started monitor thread 'Monitor'.
+[25/Sep/2013:21:20:55] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:20:55] ENGINE Bus STARTED
+[25/Sep/2013:21:27:14] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:27:14] ENGINE Bus STARTING
+[25/Sep/2013:21:27:14] ENGINE Set handler for console events.
+[25/Sep/2013:21:27:14] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:27:14] ENGINE Started monitor thread 'Monitor'.
+[25/Sep/2013:21:27:14] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:27:14] ENGINE Bus STARTED
+[25/Sep/2013:21:28:22] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:28:22] ENGINE Bus STARTING
+[25/Sep/2013:21:28:22] ENGINE Set handler for console events.
+[25/Sep/2013:21:28:22] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:28:22] ENGINE Started monitor thread 'Monitor'.
+[25/Sep/2013:21:28:22] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:28:22] ENGINE Bus STARTED
+[25/Sep/2013:21:31:43] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:31:43] ENGINE Bus STARTING
+[25/Sep/2013:21:31:43] ENGINE Set handler for console events.
+[25/Sep/2013:21:31:43] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:31:43] ENGINE Started monitor thread 'Monitor'.
+[25/Sep/2013:21:31:43] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:31:43] ENGINE Bus STARTED
+[25/Sep/2013:21:32:28] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:32:28] ENGINE Bus STARTING
+[25/Sep/2013:21:32:28] ENGINE Set handler for console events.
+[25/Sep/2013:21:32:28] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:32:28] ENGINE Started monitor thread 'Monitor'.
+[25/Sep/2013:21:32:28] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:32:28] ENGINE Bus STARTED
+[25/Sep/2013:21:33:15] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:33:15] ENGINE Bus STARTING
+[25/Sep/2013:21:33:15] ENGINE Set handler for console events.
+[25/Sep/2013:21:33:15] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:33:15] ENGINE Started monitor thread 'Monitor'.
+[25/Sep/2013:21:33:15] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:33:15] ENGINE Bus STARTED
+[25/Sep/2013:21:33:16] ENGINE Stopped thread 'Monitor'.
+[25/Sep/2013:21:33:16] ENGINE Started monitor thread 'Monitor'.
+[25/Sep/2013:21:34:40] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:34:40] ENGINE Bus STARTING
+[25/Sep/2013:21:34:40] ENGINE Set handler for console events.
+[25/Sep/2013:21:34:40] ENGINE Started monitor thread 'Monitor'.
+[25/Sep/2013:21:34:40] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:34:41] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:34:41] ENGINE Bus STARTED
+[25/Sep/2013:21:34:43] ENGINE Stopped thread 'Monitor'.
+[25/Sep/2013:21:34:43] ENGINE Started monitor thread 'Monitor'.
+[25/Sep/2013:21:37:16] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:37:16] ENGINE Bus STARTING
+[25/Sep/2013:21:37:16] ENGINE Set handler for console events.
+[25/Sep/2013:21:37:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:37:16] ENGINE Started monitor thread 'Monitor'.
+[25/Sep/2013:21:37:17] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:37:17] ENGINE Bus STARTED
+[25/Sep/2013:21:37:22] ENGINE Stopped thread 'Monitor'.
+[25/Sep/2013:21:37:22] ENGINE Started monitor thread 'Monitor'.
+[25/Sep/2013:21:40:52] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:40:52] ENGINE Bus STARTING
+[25/Sep/2013:21:40:52] ENGINE Set handler for console events.
+[25/Sep/2013:21:40:52] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:40:53] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:40:53] ENGINE Bus STARTED
+[25/Sep/2013:21:40:57] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 88, in test
+    self.timer.stop()
+AttributeError: 'BackgroundTask' object has no attribute 'stop'
+
+[25/Sep/2013:21:42:06] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:42:06] ENGINE Bus STARTING
+[25/Sep/2013:21:42:06] ENGINE Set handler for console events.
+[25/Sep/2013:21:42:06] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:42:06] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:42:06] ENGINE Bus STARTED
+[25/Sep/2013:21:44:26] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:44:26] ENGINE Bus STARTING
+[25/Sep/2013:21:44:26] ENGINE Set handler for console events.
+[25/Sep/2013:21:44:26] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:44:26] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:44:26] ENGINE Bus STARTED
+[25/Sep/2013:21:47:48] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:47:48] ENGINE Bus STARTING
+[25/Sep/2013:21:47:48] ENGINE Set handler for console events.
+[25/Sep/2013:21:47:48] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:47:48] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:47:48] ENGINE Bus STARTED
+[25/Sep/2013:21:49:05] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:49:05] ENGINE Bus STARTING
+[25/Sep/2013:21:49:05] ENGINE Set handler for console events.
+[25/Sep/2013:21:49:05] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:49:06] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:49:06] ENGINE Bus STARTED
+[25/Sep/2013:21:51:48] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:51:48] ENGINE Bus STARTING
+[25/Sep/2013:21:51:48] ENGINE Set handler for console events.
+[25/Sep/2013:21:51:48] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:51:48] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:51:48] ENGINE Bus STARTED
+[25/Sep/2013:21:53:45] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:53:45] ENGINE Bus STARTING
+[25/Sep/2013:21:53:45] ENGINE Set handler for console events.
+[25/Sep/2013:21:53:45] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:53:45] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:53:45] ENGINE Bus STARTED
+[25/Sep/2013:21:56:15] ENGINE Listening for SIGTERM.
+[25/Sep/2013:21:56:15] ENGINE Bus STARTING
+[25/Sep/2013:21:56:15] ENGINE Set handler for console events.
+[25/Sep/2013:21:56:15] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:21:56:16] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:21:56:16] ENGINE Bus STARTED
+[25/Sep/2013:22:01:50] ENGINE Listening for SIGTERM.
+[25/Sep/2013:22:01:50] ENGINE Bus STARTING
+[25/Sep/2013:22:01:50] ENGINE Set handler for console events.
+[25/Sep/2013:22:01:50] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:22:01:51] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:22:01:51] ENGINE Bus STARTED
+[25/Sep/2013:22:04:51] ENGINE Listening for SIGTERM.
+[25/Sep/2013:22:04:51] ENGINE Bus STARTING
+[25/Sep/2013:22:04:51] ENGINE Set handler for console events.
+[25/Sep/2013:22:04:51] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:22:04:51] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:22:04:51] ENGINE Bus STARTED
+[25/Sep/2013:22:07:51] ENGINE Console event 0: shutting down bus
+[25/Sep/2013:22:07:51] ENGINE Removed handler for console events.
+[25/Sep/2013:22:07:51] ENGINE Bus STOPPING
+[25/Sep/2013:22:07:51] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8099)) shut down
+[25/Sep/2013:22:07:51] ENGINE Stopped thread '_TimeoutMonitor'.
+[25/Sep/2013:22:07:51] ENGINE Handler for console events already off.
+[25/Sep/2013:22:07:51] ENGINE Bus STOPPED
+[25/Sep/2013:22:07:51] ENGINE Bus EXITING
+[25/Sep/2013:22:07:51] ENGINE Waiting for child threads to terminate...
+[25/Sep/2013:22:07:51] ENGINE Bus EXITED
+[25/Sep/2013:22:07:51] ENGINE Waiting for thread Thread-1.
+[25/Sep/2013:22:07:54] ENGINE Console event 0: shutting down bus
+[25/Sep/2013:22:07:54] ENGINE Handler for console events already off.
+[25/Sep/2013:22:07:54] ENGINE Bus STOPPING
+[25/Sep/2013:22:07:54] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8099)) already shut down
+[25/Sep/2013:22:07:54] ENGINE No thread running for None.
+[25/Sep/2013:22:07:54] ENGINE Handler for console events already off.
+[25/Sep/2013:22:07:54] ENGINE Bus STOPPED
+[25/Sep/2013:22:07:54] ENGINE Bus EXITING
+[25/Sep/2013:22:07:54] ENGINE Bus EXITED
+[25/Sep/2013:22:07:55] ENGINE Console event 0: shutting down bus
+[25/Sep/2013:22:07:55] ENGINE Handler for console events already off.
+[25/Sep/2013:22:07:55] ENGINE Bus STOPPING
+[25/Sep/2013:22:07:55] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8099)) already shut down
+[25/Sep/2013:22:07:55] ENGINE No thread running for None.
+[25/Sep/2013:22:07:55] ENGINE Handler for console events already off.
+[25/Sep/2013:22:07:55] ENGINE Bus STOPPED
+[25/Sep/2013:22:07:55] ENGINE Bus EXITING
+[25/Sep/2013:22:07:55] ENGINE Bus EXITED
+[25/Sep/2013:22:07:56] ENGINE Console event 0: shutting down bus
+[25/Sep/2013:22:07:56] ENGINE Handler for console events already off.
+[25/Sep/2013:22:07:56] ENGINE Bus STOPPING
+[25/Sep/2013:22:07:56] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8099)) already shut down
+[25/Sep/2013:22:07:56] ENGINE No thread running for None.
+[25/Sep/2013:22:07:56] ENGINE Handler for console events already off.
+[25/Sep/2013:22:07:56] ENGINE Bus STOPPED
+[25/Sep/2013:22:07:56] ENGINE Bus EXITING
+[25/Sep/2013:22:07:56] ENGINE Bus EXITED
+[25/Sep/2013:22:07:56] ENGINE Console event 0: shutting down bus
+[25/Sep/2013:22:07:56] ENGINE Handler for console events already off.
+[25/Sep/2013:22:07:56] ENGINE Bus STOPPING
+[25/Sep/2013:22:07:56] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8099)) already shut down
+[25/Sep/2013:22:07:56] ENGINE No thread running for None.
+[25/Sep/2013:22:07:56] ENGINE Handler for console events already off.
+[25/Sep/2013:22:07:56] ENGINE Bus STOPPED
+[25/Sep/2013:22:07:56] ENGINE Bus EXITING
+[25/Sep/2013:22:07:56] ENGINE Bus EXITED
+[25/Sep/2013:22:07:56] ENGINE Console event 0: shutting down bus
+[25/Sep/2013:22:07:56] ENGINE Handler for console events already off.
+[25/Sep/2013:22:07:56] ENGINE Bus STOPPING
+[25/Sep/2013:22:07:56] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8099)) already shut down
+[25/Sep/2013:22:07:56] ENGINE No thread running for None.
+[25/Sep/2013:22:07:56] ENGINE Handler for console events already off.
+[25/Sep/2013:22:07:56] ENGINE Bus STOPPED
+[25/Sep/2013:22:07:56] ENGINE Bus EXITING
+[25/Sep/2013:22:07:56] ENGINE Bus EXITED
+[25/Sep/2013:22:07:56] ENGINE Console event 0: shutting down bus
+[25/Sep/2013:22:07:56] ENGINE Handler for console events already off.
+[25/Sep/2013:22:07:56] ENGINE Bus STOPPING
+[25/Sep/2013:22:07:56] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8099)) already shut down
+[25/Sep/2013:22:07:56] ENGINE No thread running for None.
+[25/Sep/2013:22:07:56] ENGINE Handler for console events already off.
+[25/Sep/2013:22:07:56] ENGINE Bus STOPPED
+[25/Sep/2013:22:07:56] ENGINE Bus EXITING
+[25/Sep/2013:22:07:56] ENGINE Bus EXITED
+[25/Sep/2013:22:07:57] ENGINE Console event 0: shutting down bus
+[25/Sep/2013:22:07:57] ENGINE Handler for console events already off.
+[25/Sep/2013:22:07:57] ENGINE Bus STOPPING
+[25/Sep/2013:22:07:57] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8099)) already shut down
+[25/Sep/2013:22:07:57] ENGINE No thread running for None.
+[25/Sep/2013:22:07:57] ENGINE Handler for console events already off.
+[25/Sep/2013:22:07:57] ENGINE Bus STOPPED
+[25/Sep/2013:22:07:57] ENGINE Bus EXITING
+[25/Sep/2013:22:07:57] ENGINE Bus EXITED
+[25/Sep/2013:22:07:57] ENGINE Console event 2: shutting down bus
+[25/Sep/2013:22:07:57] ENGINE Handler for console events already off.
+[25/Sep/2013:22:07:57] ENGINE Bus STOPPING
+[25/Sep/2013:22:07:57] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8099)) already shut down
+[25/Sep/2013:22:07:57] ENGINE No thread running for None.
+[25/Sep/2013:22:07:57] ENGINE Handler for console events already off.
+[25/Sep/2013:22:07:57] ENGINE Bus STOPPED
+[25/Sep/2013:22:07:57] ENGINE Bus EXITING
+[25/Sep/2013:22:07:57] ENGINE Bus EXITED
+[25/Sep/2013:22:09:27] ENGINE Listening for SIGTERM.
+[25/Sep/2013:22:09:27] ENGINE Bus STARTING
+[25/Sep/2013:22:09:27] ENGINE Set handler for console events.
+[25/Sep/2013:22:09:27] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:22:09:27] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:22:09:27] ENGINE Bus STARTED
+[25/Sep/2013:22:09:32] ENGINE Console event 2: shutting down bus
+[25/Sep/2013:22:09:32] ENGINE Removed handler for console events.
+[25/Sep/2013:22:09:32] ENGINE Bus STOPPING
+[25/Sep/2013:22:09:32] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8099)) shut down
+[25/Sep/2013:22:09:32] ENGINE Stopped thread '_TimeoutMonitor'.
+[25/Sep/2013:22:09:32] ENGINE Handler for console events already off.
+[25/Sep/2013:22:09:32] ENGINE Bus STOPPED
+[25/Sep/2013:22:09:32] ENGINE Bus EXITING
+[25/Sep/2013:22:09:32] ENGINE Waiting for child threads to terminate...
+[25/Sep/2013:22:09:32] ENGINE Bus EXITED
+[25/Sep/2013:22:11:15] ENGINE Listening for SIGTERM.
+[25/Sep/2013:22:11:15] ENGINE Bus STARTING
+[25/Sep/2013:22:11:15] ENGINE Set handler for console events.
+[25/Sep/2013:22:11:15] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:22:11:16] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:22:11:16] ENGINE Bus STARTED
+[25/Sep/2013:22:14:49] ENGINE Listening for SIGTERM.
+[25/Sep/2013:22:14:49] ENGINE Bus STARTING
+[25/Sep/2013:22:14:49] ENGINE Set handler for console events.
+[25/Sep/2013:22:14:49] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:22:14:49] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:22:14:49] ENGINE Bus STARTED
+[25/Sep/2013:22:17:16] ENGINE Listening for SIGTERM.
+[25/Sep/2013:22:17:16] ENGINE Bus STARTING
+[25/Sep/2013:22:17:16] ENGINE Set handler for console events.
+[25/Sep/2013:22:17:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:22:17:16] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:22:17:16] ENGINE Bus STARTED
+[25/Sep/2013:22:19:49] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 99, in test
+    self.timer.cancel()
+AttributeError: 'Server' object has no attribute 'timer'
+
+[25/Sep/2013:22:19:50] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 99, in test
+    self.timer.cancel()
+AttributeError: 'Server' object has no attribute 'timer'
+
+[25/Sep/2013:22:22:03] ENGINE Listening for SIGTERM.
+[25/Sep/2013:22:22:03] ENGINE Bus STARTING
+[25/Sep/2013:22:22:03] ENGINE Set handler for console events.
+[25/Sep/2013:22:22:03] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:22:22:03] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:22:22:03] ENGINE Bus STARTED
+[25/Sep/2013:22:22:31] ENGINE Listening for SIGTERM.
+[25/Sep/2013:22:22:31] ENGINE Bus STARTING
+[25/Sep/2013:22:22:31] ENGINE Set handler for console events.
+[25/Sep/2013:22:22:31] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:22:22:32] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:22:22:32] ENGINE Bus STARTED
+[25/Sep/2013:22:22:57] ENGINE Listening for SIGTERM.
+[25/Sep/2013:22:22:57] ENGINE Bus STARTING
+[25/Sep/2013:22:22:57] ENGINE Set handler for console events.
+[25/Sep/2013:22:22:57] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:22:22:57] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:22:22:57] ENGINE Bus STARTED
+[25/Sep/2013:22:23:19] ENGINE Listening for SIGTERM.
+[25/Sep/2013:22:23:19] ENGINE Bus STARTING
+[25/Sep/2013:22:23:19] ENGINE Set handler for console events.
+[25/Sep/2013:22:23:19] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:22:23:19] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:22:23:19] ENGINE Bus STARTED
+[25/Sep/2013:22:23:57] ENGINE Listening for SIGTERM.
+[25/Sep/2013:22:23:57] ENGINE Bus STARTING
+[25/Sep/2013:22:23:57] ENGINE Set handler for console events.
+[25/Sep/2013:22:23:57] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:22:23:57] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:22:23:57] ENGINE Bus STARTED
+[25/Sep/2013:22:24:33] ENGINE Listening for SIGTERM.
+[25/Sep/2013:22:24:33] ENGINE Bus STARTING
+[25/Sep/2013:22:24:33] ENGINE Set handler for console events.
+[25/Sep/2013:22:24:33] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:22:24:33] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:22:24:33] ENGINE Bus STARTED
+[25/Sep/2013:22:25:03] ENGINE Listening for SIGTERM.
+[25/Sep/2013:22:25:03] ENGINE Bus STARTING
+[25/Sep/2013:22:25:03] ENGINE Set handler for console events.
+[25/Sep/2013:22:25:03] ENGINE Started monitor thread '_TimeoutMonitor'.
+[25/Sep/2013:22:25:03] ENGINE Serving on 0.0.0.0:8099
+[25/Sep/2013:22:25:03] ENGINE Bus STARTED
+[30/Sep/2013:22:24:09] ENGINE Listening for SIGTERM.
+[30/Sep/2013:22:24:09] ENGINE Bus STARTING
+[30/Sep/2013:22:24:09] ENGINE Set handler for console events.
+[30/Sep/2013:22:24:09] ENGINE Started monitor thread '_TimeoutMonitor'.
+[30/Sep/2013:22:24:09] ENGINE Serving on 0.0.0.0:8099
+[30/Sep/2013:22:24:09] ENGINE Bus STARTED
+[30/Sep/2013:22:25:26] ENGINE Listening for SIGTERM.
+[30/Sep/2013:22:25:26] ENGINE Bus STARTING
+[30/Sep/2013:22:25:26] ENGINE Set handler for console events.
+[30/Sep/2013:22:25:26] ENGINE Started monitor thread '_TimeoutMonitor'.
+[30/Sep/2013:22:25:26] ENGINE Serving on 0.0.0.0:8099
+[30/Sep/2013:22:25:26] ENGINE Bus STARTED
+[30/Sep/2013:22:53:22] ENGINE Listening for SIGTERM.
+[30/Sep/2013:22:53:22] ENGINE Bus STARTING
+[30/Sep/2013:22:53:22] ENGINE Set handler for console events.
+[30/Sep/2013:22:53:22] ENGINE Started monitor thread '_TimeoutMonitor'.
+[30/Sep/2013:22:53:22] ENGINE Serving on 0.0.0.0:8099
+[30/Sep/2013:22:53:22] ENGINE Bus STARTED
+[30/Sep/2013:22:57:13] ENGINE Listening for SIGTERM.
+[30/Sep/2013:22:57:13] ENGINE Bus STARTING
+[30/Sep/2013:22:57:13] ENGINE Set handler for console events.
+[30/Sep/2013:22:57:13] ENGINE Started monitor thread '_TimeoutMonitor'.
+[30/Sep/2013:22:57:13] ENGINE Serving on 0.0.0.0:8099
+[30/Sep/2013:22:57:13] ENGINE Bus STARTED
+[30/Sep/2013:23:11:16] ENGINE Listening for SIGTERM.
+[30/Sep/2013:23:11:16] ENGINE Bus STARTING
+[30/Sep/2013:23:11:16] ENGINE Set handler for console events.
+[30/Sep/2013:23:11:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+[30/Sep/2013:23:11:16] ENGINE Serving on 0.0.0.0:8099
+[30/Sep/2013:23:11:16] ENGINE Bus STARTED
+[30/Sep/2013:23:36:51] ENGINE Listening for SIGTERM.
+[30/Sep/2013:23:36:51] ENGINE Bus STARTING
+[30/Sep/2013:23:36:51] ENGINE Set handler for console events.
+[30/Sep/2013:23:36:51] ENGINE Started monitor thread '_TimeoutMonitor'.
+[30/Sep/2013:23:36:51] ENGINE Serving on 0.0.0.0:8099
+[30/Sep/2013:23:36:51] ENGINE Bus STARTED
+[01/Oct/2013:00:09:21] ENGINE Listening for SIGTERM.
+[01/Oct/2013:00:09:21] ENGINE Bus STARTING
+[01/Oct/2013:00:09:21] ENGINE Set handler for console events.
+[01/Oct/2013:00:09:21] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:00:09:21] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:00:09:21] ENGINE Bus STARTED
+[01/Oct/2013:00:15:30] ENGINE Listening for SIGTERM.
+[01/Oct/2013:00:15:30] ENGINE Bus STARTING
+[01/Oct/2013:00:15:30] ENGINE Set handler for console events.
+[01/Oct/2013:00:15:30] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:00:15:31] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:00:15:31] ENGINE Bus STARTED
+[01/Oct/2013:00:16:17] ENGINE Listening for SIGTERM.
+[01/Oct/2013:00:16:17] ENGINE Bus STARTING
+[01/Oct/2013:00:16:17] ENGINE Set handler for console events.
+[01/Oct/2013:00:16:17] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:00:16:18] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:00:16:18] ENGINE Bus STARTED
+[01/Oct/2013:01:21:38] ENGINE Listening for SIGTERM.
+[01/Oct/2013:01:21:38] ENGINE Bus STARTING
+[01/Oct/2013:01:21:38] ENGINE Set handler for console events.
+[01/Oct/2013:01:21:38] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:01:21:38] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:01:21:38] ENGINE Bus STARTED
+[01/Oct/2013:01:22:55] ENGINE Listening for SIGTERM.
+[01/Oct/2013:01:22:55] ENGINE Bus STARTING
+[01/Oct/2013:01:22:55] ENGINE Set handler for console events.
+[01/Oct/2013:01:22:55] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:01:22:55] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:01:22:55] ENGINE Bus STARTED
+[01/Oct/2013:01:29:44] ENGINE Bus STARTING
+[01/Oct/2013:01:29:44] ENGINE Set handler for console events.
+[01/Oct/2013:01:29:44] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:01:29:44] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:01:29:44] ENGINE Bus STARTED
+[01/Oct/2013:01:32:14] ENGINE Bus STARTING
+[01/Oct/2013:01:32:14] ENGINE Set handler for console events.
+[01/Oct/2013:01:32:14] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:01:32:14] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:01:32:14] ENGINE Bus STARTED
+[01/Oct/2013:01:32:14] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 108, in changeColour
+    self.ardConnection.sendSingleColour(mode,r,g,b)
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 34, in sendSingleColour
+    self.ser.write(str(mode)+","+str(r)+","+str(g)+","+str(b)+",")
+  File "build\bdist.win-amd64\egg\serial\serialwin32.py", line 270, in write
+    raise writeTimeoutError
+SerialTimeoutException: Write timeout
+
+[01/Oct/2013:01:32:14] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 108, in changeColour
+    self.ardConnection.sendSingleColour(mode,r,g,b)
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 34, in sendSingleColour
+    self.ser.write(str(mode)+","+str(r)+","+str(g)+","+str(b)+",")
+  File "build\bdist.win-amd64\egg\serial\serialwin32.py", line 270, in write
+    raise writeTimeoutError
+SerialTimeoutException: Write timeout
+
+[01/Oct/2013:01:32:14] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 108, in changeColour
+    self.ardConnection.sendSingleColour(mode,r,g,b)
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 34, in sendSingleColour
+    self.ser.write(str(mode)+","+str(r)+","+str(g)+","+str(b)+",")
+  File "build\bdist.win-amd64\egg\serial\serialwin32.py", line 270, in write
+    raise writeTimeoutError
+SerialTimeoutException: Write timeout
+
+[01/Oct/2013:01:32:14] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 108, in changeColour
+    self.ardConnection.sendSingleColour(mode,r,g,b)
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 34, in sendSingleColour
+    self.ser.write(str(mode)+","+str(r)+","+str(g)+","+str(b)+",")
+  File "build\bdist.win-amd64\egg\serial\serialwin32.py", line 270, in write
+    raise writeTimeoutError
+SerialTimeoutException: Write timeout
+
+[01/Oct/2013:01:32:14] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 108, in changeColour
+    self.ardConnection.sendSingleColour(mode,r,g,b)
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 34, in sendSingleColour
+    self.ser.write(str(mode)+","+str(r)+","+str(g)+","+str(b)+",")
+  File "build\bdist.win-amd64\egg\serial\serialwin32.py", line 270, in write
+    raise writeTimeoutError
+SerialTimeoutException: Write timeout
+
+[01/Oct/2013:01:32:14] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 108, in changeColour
+    self.ardConnection.sendSingleColour(mode,r,g,b)
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 34, in sendSingleColour
+    self.ser.write(str(mode)+","+str(r)+","+str(g)+","+str(b)+",")
+  File "build\bdist.win-amd64\egg\serial\serialwin32.py", line 270, in write
+    raise writeTimeoutError
+SerialTimeoutException: Write timeout
+
+[01/Oct/2013:01:32:14] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 108, in changeColour
+    self.ardConnection.sendSingleColour(mode,r,g,b)
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 34, in sendSingleColour
+    self.ser.write(str(mode)+","+str(r)+","+str(g)+","+str(b)+",")
+  File "build\bdist.win-amd64\egg\serial\serialwin32.py", line 270, in write
+    raise writeTimeoutError
+SerialTimeoutException: Write timeout
+
+[01/Oct/2013:01:36:14] ENGINE Bus STARTING
+[01/Oct/2013:01:36:14] ENGINE Set handler for console events.
+[01/Oct/2013:01:36:14] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:01:36:14] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:01:36:14] ENGINE Bus STARTED
+[01/Oct/2013:01:36:21] ENGINE Bus STARTING
+[01/Oct/2013:01:36:21] ENGINE Set handler for console events.
+[01/Oct/2013:01:36:21] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:01:36:21] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:01:36:21] ENGINE Bus STARTED
+[01/Oct/2013:01:37:24] ENGINE Bus STARTING
+[01/Oct/2013:01:37:24] ENGINE Set handler for console events.
+[01/Oct/2013:01:37:24] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:01:37:24] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:01:37:24] ENGINE Bus STARTED
+[01/Oct/2013:01:38:17] ENGINE Bus STARTING
+[01/Oct/2013:01:38:17] ENGINE Set handler for console events.
+[01/Oct/2013:01:38:17] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:01:38:17] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:01:38:17] ENGINE Bus STARTED
+[01/Oct/2013:01:38:48] ENGINE Bus STARTING
+[01/Oct/2013:01:38:48] ENGINE Set handler for console events.
+[01/Oct/2013:01:38:48] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:01:38:48] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:01:38:48] ENGINE Bus STARTED
+[01/Oct/2013:01:39:29] ENGINE Bus STARTING
+[01/Oct/2013:01:39:29] ENGINE Set handler for console events.
+[01/Oct/2013:01:39:29] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:01:39:29] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:01:39:29] ENGINE Bus STARTED
+[01/Oct/2013:01:46:57] ENGINE Bus STARTING
+[01/Oct/2013:01:46:57] ENGINE Set handler for console events.
+[01/Oct/2013:01:46:57] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:01:46:57] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:01:46:57] ENGINE Bus STARTED
+[01/Oct/2013:01:46:57] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 83, in loop
+    if (self.looping):
+AttributeError: 'Server' object has no attribute 'looping'
+
+[01/Oct/2013:01:47:35] ENGINE Bus STARTING
+[01/Oct/2013:01:47:35] ENGINE Set handler for console events.
+[01/Oct/2013:01:47:35] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:01:47:36] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:01:47:36] ENGINE Bus STARTED
+[01/Oct/2013:01:47:42] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 83, in loop
+    if (self.looping):
+AttributeError: 'Server' object has no attribute 'looping'
+
+[01/Oct/2013:01:48:05] ENGINE Bus STARTING
+[01/Oct/2013:01:48:05] ENGINE Set handler for console events.
+[01/Oct/2013:01:48:05] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:01:48:05] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:01:48:05] ENGINE Bus STARTED
+[01/Oct/2013:01:48:58] ENGINE Bus STARTING
+[01/Oct/2013:01:48:58] ENGINE Set handler for console events.
+[01/Oct/2013:01:48:58] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:01:48:59] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:01:48:59] ENGINE Bus STARTED
+[01/Oct/2013:01:50:15] ENGINE Bus STARTING
+[01/Oct/2013:01:50:15] ENGINE Set handler for console events.
+[01/Oct/2013:01:50:15] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:01:50:16] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:01:50:16] ENGINE Bus STARTED
+[01/Oct/2013:01:50:58] ENGINE Bus STARTING
+[01/Oct/2013:01:50:58] ENGINE Set handler for console events.
+[01/Oct/2013:01:50:58] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:01:50:58] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:01:50:58] ENGINE Bus STARTED
+[01/Oct/2013:01:51:14] ENGINE Bus STARTING
+[01/Oct/2013:01:51:14] ENGINE Set handler for console events.
+[01/Oct/2013:01:51:14] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:01:51:14] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:01:51:14] ENGINE Bus STARTED
+[01/Oct/2013:01:53:27] ENGINE Bus STARTING
+[01/Oct/2013:01:53:27] ENGINE Set handler for console events.
+[01/Oct/2013:01:53:27] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:01:53:27] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:01:53:27] ENGINE Bus STARTED
+[01/Oct/2013:01:55:48] ENGINE Console event 0: shutting down bus
+[01/Oct/2013:01:55:48] ENGINE Removed handler for console events.
+[01/Oct/2013:01:55:48] ENGINE Bus STOPPING
+[01/Oct/2013:01:56:02] ENGINE Bus STARTING
+[01/Oct/2013:01:56:02] ENGINE Set handler for console events.
+[01/Oct/2013:01:56:02] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:01:56:02] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:01:56:02] ENGINE Bus STARTED
+[01/Oct/2013:01:58:09] ENGINE Console event 2: shutting down bus
+[01/Oct/2013:01:58:09] ENGINE Removed handler for console events.
+[01/Oct/2013:01:58:09] ENGINE Bus STOPPING
+[01/Oct/2013:01:58:41] ENGINE Bus STARTING
+[01/Oct/2013:01:58:41] ENGINE Set handler for console events.
+[01/Oct/2013:01:58:41] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:01:58:41] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:01:58:41] ENGINE Bus STARTED
+[01/Oct/2013:02:03:14] ENGINE Bus STARTING
+[01/Oct/2013:02:03:14] ENGINE Set handler for console events.
+[01/Oct/2013:02:03:14] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:02:03:14] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:02:03:14] ENGINE Bus STARTED
+[01/Oct/2013:02:06:30] ENGINE Bus STARTING
+[01/Oct/2013:02:06:30] ENGINE Set handler for console events.
+[01/Oct/2013:02:06:30] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:02:06:30] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:02:06:30] ENGINE Bus STARTED
+[01/Oct/2013:02:08:48] ENGINE Listening for SIGTERM.
+[01/Oct/2013:02:08:48] ENGINE Bus STARTING
+[01/Oct/2013:02:08:48] ENGINE Set handler for console events.
+[01/Oct/2013:02:08:48] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:02:08:49] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:02:08:49] ENGINE Bus STARTED
+[01/Oct/2013:02:12:09] ENGINE Listening for SIGTERM.
+[01/Oct/2013:02:12:09] ENGINE Bus STARTING
+[01/Oct/2013:02:12:09] ENGINE Set handler for console events.
+[01/Oct/2013:02:12:09] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:02:12:10] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:02:12:10] ENGINE Bus STARTED
+[01/Oct/2013:02:24:13] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 88, in loop
+    self.ardConnection.sendSingleColour(3,newcolour['red'],newcolour['green'],newcolour['blue'])
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 34, in sendSingleColour
+    self.ser.write(str(mode)+","+str(r)+","+str(g)+","+str(b)+",")
+  File "build\bdist.win-amd64\egg\serial\serialwin32.py", line 270, in write
+    raise writeTimeoutError
+SerialTimeoutException: Write timeout
+
+[01/Oct/2013:02:26:43] ENGINE Bus STARTING
+[01/Oct/2013:02:26:43] ENGINE Set handler for console events.
+[01/Oct/2013:02:26:43] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:02:26:44] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:02:26:44] ENGINE Bus STARTED
+[01/Oct/2013:02:26:44] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 88, in loop
+    self.ardConnection.sendSingleColour(3,newcolour['red'],newcolour['green'],newcolour['blue'])
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 34, in sendSingleColour
+    self.ser.open()
+  File "build\bdist.win-amd64\egg\serial\serialwin32.py", line 39, in open
+    raise SerialException("Port is already open.")
+SerialException: Port is already open.
+
+[01/Oct/2013:02:27:23] ENGINE Bus STARTING
+[01/Oct/2013:02:27:23] ENGINE Set handler for console events.
+[01/Oct/2013:02:27:23] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:02:27:24] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:02:27:24] ENGINE Bus STARTED
+[01/Oct/2013:02:32:13] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 88, in loop
+    self.ardConnection.sendSingleColour(3,newcolour['red'],newcolour['green'],newcolour['blue'])
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 35, in sendSingleColour
+    self.ser.write(str(mode)+","+str(r)+","+str(g)+","+str(b)+",")
+  File "build\bdist.win-amd64\egg\serial\serialwin32.py", line 270, in write
+    raise writeTimeoutError
+SerialTimeoutException: Write timeout
+
+[01/Oct/2013:02:33:47] ENGINE Bus STARTING
+[01/Oct/2013:02:33:47] ENGINE Set handler for console events.
+[01/Oct/2013:02:33:47] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:02:33:47] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:02:33:47] ENGINE Bus STARTED
+[01/Oct/2013:02:34:50] ENGINE Bus STARTING
+[01/Oct/2013:02:34:50] ENGINE Set handler for console events.
+[01/Oct/2013:02:34:50] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:02:34:50] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:02:34:50] ENGINE Bus STARTED
+[01/Oct/2013:02:37:24] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 88, in loop
+    self.ardConnection.sendSingleColour(3,newcolour['red'],newcolour['green'],newcolour['blue'])
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 35, in sendSingleColour
+    self.ser.write(str(mode)+","+str(r)+","+str(g)+","+str(b)+",")
+  File "build\bdist.win-amd64\egg\serial\serialwin32.py", line 270, in write
+    raise writeTimeoutError
+SerialTimeoutException: Write timeout
+
+[01/Oct/2013:02:39:05] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 88, in loop
+    self.ardConnection.sendSingleColour(3,newcolour['red'],newcolour['green'],newcolour['blue'])
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 35, in sendSingleColour
+  File "build\bdist.win-amd64\egg\serial\serialwin32.py", line 270, in write
+    raise writeTimeoutError
+SerialTimeoutException: Write timeout
+
+[01/Oct/2013:02:39:11] ENGINE Bus STARTING
+[01/Oct/2013:02:39:11] ENGINE Set handler for console events.
+[01/Oct/2013:02:39:11] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:02:39:11] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:02:39:11] ENGINE Bus STARTED
+[01/Oct/2013:02:42:34] ENGINE Bus STARTING
+[01/Oct/2013:02:42:34] ENGINE Set handler for console events.
+[01/Oct/2013:02:42:34] ENGINE Started monitor thread '_TimeoutMonitor'.
+[01/Oct/2013:02:42:34] ENGINE Serving on 0.0.0.0:8099
+[01/Oct/2013:02:42:34] ENGINE Bus STARTED
+[02/Oct/2013:00:21:18] ENGINE Bus STARTING
+[02/Oct/2013:00:21:18] ENGINE Set handler for console events.
+[02/Oct/2013:00:21:18] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:00:21:18] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:00:21:18] ENGINE Bus STARTED
+[02/Oct/2013:00:29:13] ENGINE Listening for SIGTERM.
+[02/Oct/2013:00:29:13] ENGINE Bus STARTING
+[02/Oct/2013:00:29:13] ENGINE Set handler for console events.
+[02/Oct/2013:00:29:13] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:00:29:13] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:00:29:13] ENGINE Bus STARTED
+[02/Oct/2013:00:32:00] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 88, in loop
+    self.ardConnection.sendSingleColour(1,newcolour['red'],newcolour['green'],newcolour['blue'])
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 43, in sendSingleColour
+    self.reconnect()
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 34, in reconnect
+    self.ser.open()
+  File "build\bdist.win-amd64\egg\serial\serialwin32.py", line 59, in open
+    raise SerialException("could not open port %s: %s" % (self.portstr, ctypes.WinError()))
+SerialException: could not open port COM3: [Error 5] Access is denied.
+
+[02/Oct/2013:00:32:01] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 88, in loop
+    self.ardConnection.sendSingleColour(1,newcolour['red'],newcolour['green'],newcolour['blue'])
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 43, in sendSingleColour
+    self.reconnect()
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 34, in reconnect
+    self.ser.open()
+  File "build\bdist.win-amd64\egg\serial\serialwin32.py", line 59, in open
+    raise SerialException("could not open port %s: %s" % (self.portstr, ctypes.WinError()))
+SerialException: could not open port COM3: [Error 5] Access is denied.
+
+[02/Oct/2013:00:32:01] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 88, in loop
+    self.ardConnection.sendSingleColour(1,newcolour['red'],newcolour['green'],newcolour['blue'])
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 43, in sendSingleColour
+    self.reconnect()
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 34, in reconnect
+    self.ser.open()
+  File "build\bdist.win-amd64\egg\serial\serialwin32.py", line 59, in open
+    raise SerialException("could not open port %s: %s" % (self.portstr, ctypes.WinError()))
+SerialException: could not open port COM3: [Error 5] Access is denied.
+
+[02/Oct/2013:00:32:01] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 88, in loop
+    self.ardConnection.sendSingleColour(1,newcolour['red'],newcolour['green'],newcolour['blue'])
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 43, in sendSingleColour
+    self.reconnect()
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 34, in reconnect
+    self.ser.open()
+  File "build\bdist.win-amd64\egg\serial\serialwin32.py", line 59, in open
+    raise SerialException("could not open port %s: %s" % (self.portstr, ctypes.WinError()))
+SerialException: could not open port COM3: [Error 5] Access is denied.
+
+[02/Oct/2013:00:32:01] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 88, in loop
+    self.ardConnection.sendSingleColour(1,newcolour['red'],newcolour['green'],newcolour['blue'])
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 43, in sendSingleColour
+    self.reconnect()
+  File "F:\Work\Wedding\LanternController\ArduinoConnection.py", line 34, in reconnect
+    self.ser.open()
+  File "build\bdist.win-amd64\egg\serial\serialwin32.py", line 59, in open
+    raise SerialException("could not open port %s: %s" % (self.portstr, ctypes.WinError()))
+SerialException: could not open port COM3: [Error 5] Access is denied.
+
+[02/Oct/2013:00:33:19] ENGINE Listening for SIGTERM.
+[02/Oct/2013:00:33:19] ENGINE Bus STARTING
+[02/Oct/2013:00:33:19] ENGINE Set handler for console events.
+[02/Oct/2013:00:33:19] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:00:33:19] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:00:33:19] ENGINE Bus STARTED
+[02/Oct/2013:00:41:48] ENGINE Listening for SIGTERM.
+[02/Oct/2013:00:41:48] ENGINE Bus STARTING
+[02/Oct/2013:00:41:48] ENGINE Set handler for console events.
+[02/Oct/2013:00:41:49] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:00:41:49] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:00:41:49] ENGINE Bus STARTED
+[02/Oct/2013:00:42:41] ENGINE Listening for SIGTERM.
+[02/Oct/2013:00:42:41] ENGINE Bus STARTING
+[02/Oct/2013:00:42:41] ENGINE Set handler for console events.
+[02/Oct/2013:00:42:41] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:00:42:42] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:00:42:42] ENGINE Bus STARTED
+[02/Oct/2013:00:43:19] ENGINE Listening for SIGTERM.
+[02/Oct/2013:00:43:19] ENGINE Bus STARTING
+[02/Oct/2013:00:43:19] ENGINE Set handler for console events.
+[02/Oct/2013:00:43:19] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:00:43:19] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:00:43:19] ENGINE Bus STARTED
+[02/Oct/2013:00:44:59] ENGINE Listening for SIGTERM.
+[02/Oct/2013:00:44:59] ENGINE Bus STARTING
+[02/Oct/2013:00:44:59] ENGINE Set handler for console events.
+[02/Oct/2013:00:44:59] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:00:45:00] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:00:45:00] ENGINE Bus STARTED
+[02/Oct/2013:00:45:24] ENGINE Listening for SIGTERM.
+[02/Oct/2013:00:45:24] ENGINE Bus STARTING
+[02/Oct/2013:00:45:24] ENGINE Set handler for console events.
+[02/Oct/2013:00:45:24] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:00:45:25] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:00:45:25] ENGINE Bus STARTED
+[02/Oct/2013:00:45:57] ENGINE Listening for SIGTERM.
+[02/Oct/2013:00:45:57] ENGINE Bus STARTING
+[02/Oct/2013:00:45:57] ENGINE Set handler for console events.
+[02/Oct/2013:00:45:57] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:00:45:57] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:00:45:57] ENGINE Bus STARTED
+[02/Oct/2013:00:45:58] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 141, in setLoopMode
+    self.timer.start()
+  File "C:\Python27\lib\threading.py", line 488, in start
+    raise RuntimeError("threads can only be started once")
+RuntimeError: threads can only be started once
+
+[02/Oct/2013:00:46:44] ENGINE Listening for SIGTERM.
+[02/Oct/2013:00:46:44] ENGINE Bus STARTING
+[02/Oct/2013:00:46:44] ENGINE Set handler for console events.
+[02/Oct/2013:00:46:44] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:00:46:44] ENGINE Started monitor thread 'Monitor'.
+[02/Oct/2013:00:46:44] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:00:46:44] ENGINE Bus STARTED
+[02/Oct/2013:00:47:06] ENGINE Listening for SIGTERM.
+[02/Oct/2013:00:47:06] ENGINE Bus STARTING
+[02/Oct/2013:00:47:06] ENGINE Set handler for console events.
+[02/Oct/2013:00:47:06] ENGINE Started monitor thread 'Monitor'.
+[02/Oct/2013:00:47:06] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:00:47:06] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:00:47:06] ENGINE Bus STARTED
+[02/Oct/2013:00:47:08] HTTP Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\lib\encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "F:\Work\Wedding\LanternController\webservice.py", line 139, in setLoopMode
+    self.timer.cancel()
+AttributeError: 'Monitor' object has no attribute 'cancel'
+
+[02/Oct/2013:00:49:38] ENGINE Listening for SIGTERM.
+[02/Oct/2013:00:49:38] ENGINE Bus STARTING
+[02/Oct/2013:00:49:38] ENGINE Set handler for console events.
+[02/Oct/2013:00:49:38] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:00:49:38] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:00:49:38] ENGINE Bus STARTED
+[02/Oct/2013:00:50:20] ENGINE Listening for SIGTERM.
+[02/Oct/2013:00:50:20] ENGINE Bus STARTING
+[02/Oct/2013:00:50:20] ENGINE Set handler for console events.
+[02/Oct/2013:00:50:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:00:50:21] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:00:50:21] ENGINE Bus STARTED
+[02/Oct/2013:00:50:35] ENGINE Listening for SIGTERM.
+[02/Oct/2013:00:50:35] ENGINE Bus STARTING
+[02/Oct/2013:00:50:35] ENGINE Set handler for console events.
+[02/Oct/2013:00:50:35] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:00:50:35] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:00:50:35] ENGINE Bus STARTED
+[02/Oct/2013:00:51:07] ENGINE Listening for SIGTERM.
+[02/Oct/2013:00:51:07] ENGINE Bus STARTING
+[02/Oct/2013:00:51:07] ENGINE Set handler for console events.
+[02/Oct/2013:00:51:07] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:00:51:08] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:00:51:08] ENGINE Bus STARTED
+[02/Oct/2013:00:55:28] ENGINE Listening for SIGTERM.
+[02/Oct/2013:00:55:28] ENGINE Bus STARTING
+[02/Oct/2013:00:55:28] ENGINE Set handler for console events.
+[02/Oct/2013:00:55:28] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:00:55:28] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:00:55:28] ENGINE Bus STARTED
+[02/Oct/2013:00:56:33] ENGINE Listening for SIGTERM.
+[02/Oct/2013:00:56:33] ENGINE Bus STARTING
+[02/Oct/2013:00:56:33] ENGINE Set handler for console events.
+[02/Oct/2013:00:56:33] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:00:56:33] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:00:56:33] ENGINE Bus STARTED
+[02/Oct/2013:00:57:51] ENGINE Listening for SIGTERM.
+[02/Oct/2013:00:57:51] ENGINE Bus STARTING
+[02/Oct/2013:00:57:51] ENGINE Set handler for console events.
+[02/Oct/2013:00:57:51] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:00:57:51] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:00:57:51] ENGINE Bus STARTED
+[02/Oct/2013:00:59:01] ENGINE Listening for SIGTERM.
+[02/Oct/2013:00:59:01] ENGINE Bus STARTING
+[02/Oct/2013:00:59:01] ENGINE Set handler for console events.
+[02/Oct/2013:00:59:01] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:00:59:02] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:00:59:02] ENGINE Bus STARTED
+[02/Oct/2013:00:59:22] ENGINE Listening for SIGTERM.
+[02/Oct/2013:00:59:22] ENGINE Bus STARTING
+[02/Oct/2013:00:59:22] ENGINE Set handler for console events.
+[02/Oct/2013:00:59:22] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:00:59:22] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:00:59:22] ENGINE Bus STARTED
+[02/Oct/2013:00:59:32] ENGINE Listening for SIGTERM.
+[02/Oct/2013:00:59:32] ENGINE Bus STARTING
+[02/Oct/2013:00:59:32] ENGINE Set handler for console events.
+[02/Oct/2013:00:59:32] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:00:59:32] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:00:59:32] ENGINE Bus STARTED
+[02/Oct/2013:01:00:22] ENGINE Listening for SIGTERM.
+[02/Oct/2013:01:00:22] ENGINE Bus STARTING
+[02/Oct/2013:01:00:22] ENGINE Set handler for console events.
+[02/Oct/2013:01:00:22] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:01:00:22] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:01:00:22] ENGINE Bus STARTED
+[02/Oct/2013:01:00:44] ENGINE Listening for SIGTERM.
+[02/Oct/2013:01:00:44] ENGINE Bus STARTING
+[02/Oct/2013:01:00:44] ENGINE Set handler for console events.
+[02/Oct/2013:01:00:44] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:01:00:44] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:01:00:44] ENGINE Bus STARTED
+[02/Oct/2013:01:01:28] ENGINE Listening for SIGTERM.
+[02/Oct/2013:01:01:28] ENGINE Bus STARTING
+[02/Oct/2013:01:01:28] ENGINE Set handler for console events.
+[02/Oct/2013:01:01:28] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:01:01:28] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:01:01:28] ENGINE Bus STARTED
+[02/Oct/2013:01:05:13] ENGINE Listening for SIGTERM.
+[02/Oct/2013:01:05:13] ENGINE Bus STARTING
+[02/Oct/2013:01:05:13] ENGINE Set handler for console events.
+[02/Oct/2013:01:05:13] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:01:05:13] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:01:05:13] ENGINE Bus STARTED
+[02/Oct/2013:01:05:36] ENGINE Listening for SIGTERM.
+[02/Oct/2013:01:05:36] ENGINE Bus STARTING
+[02/Oct/2013:01:05:36] ENGINE Set handler for console events.
+[02/Oct/2013:01:05:36] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:01:05:37] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:01:05:37] ENGINE Bus STARTED
+[02/Oct/2013:01:06:17] ENGINE Listening for SIGTERM.
+[02/Oct/2013:01:06:17] ENGINE Bus STARTING
+[02/Oct/2013:01:06:17] ENGINE Set handler for console events.
+[02/Oct/2013:01:06:17] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:01:06:17] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:01:06:17] ENGINE Bus STARTED
+[02/Oct/2013:01:07:17] ENGINE Listening for SIGTERM.
+[02/Oct/2013:01:07:17] ENGINE Bus STARTING
+[02/Oct/2013:01:07:17] ENGINE Set handler for console events.
+[02/Oct/2013:01:07:17] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:01:07:17] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:01:07:17] ENGINE Bus STARTED
+[02/Oct/2013:01:07:42] ENGINE Listening for SIGTERM.
+[02/Oct/2013:01:07:42] ENGINE Bus STARTING
+[02/Oct/2013:01:07:42] ENGINE Set handler for console events.
+[02/Oct/2013:01:07:42] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:01:07:42] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:01:07:42] ENGINE Bus STARTED
+[02/Oct/2013:01:10:37] ENGINE Listening for SIGTERM.
+[02/Oct/2013:01:10:37] ENGINE Bus STARTING
+[02/Oct/2013:01:10:37] ENGINE Set handler for console events.
+[02/Oct/2013:01:10:37] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:01:10:38] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:01:10:38] ENGINE Bus STARTED
+[02/Oct/2013:01:41:14] ENGINE Listening for SIGTERM.
+[02/Oct/2013:01:41:14] ENGINE Bus STARTING
+[02/Oct/2013:01:41:14] ENGINE Set handler for console events.
+[02/Oct/2013:01:41:14] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:01:41:15] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:01:41:15] ENGINE Bus STARTED
+[02/Oct/2013:01:41:36] ENGINE Listening for SIGTERM.
+[02/Oct/2013:01:41:36] ENGINE Bus STARTING
+[02/Oct/2013:01:41:36] ENGINE Set handler for console events.
+[02/Oct/2013:01:41:36] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:01:41:36] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:01:41:36] ENGINE Bus STARTED
+[02/Oct/2013:01:42:41] ENGINE Listening for SIGTERM.
+[02/Oct/2013:01:42:41] ENGINE Bus STARTING
+[02/Oct/2013:01:42:41] ENGINE Set handler for console events.
+[02/Oct/2013:01:42:41] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:01:42:41] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:01:42:41] ENGINE Bus STARTED
+[02/Oct/2013:01:47:52] ENGINE Listening for SIGTERM.
+[02/Oct/2013:01:47:52] ENGINE Bus STARTING
+[02/Oct/2013:01:47:52] ENGINE Set handler for console events.
+[02/Oct/2013:01:47:52] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:01:47:52] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:01:47:52] ENGINE Bus STARTED
+[02/Oct/2013:01:48:38] ENGINE Listening for SIGTERM.
+[02/Oct/2013:01:48:38] ENGINE Bus STARTING
+[02/Oct/2013:01:48:38] ENGINE Set handler for console events.
+[02/Oct/2013:01:48:38] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:01:48:38] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:01:48:38] ENGINE Bus STARTED
+[02/Oct/2013:01:50:08] ENGINE Listening for SIGTERM.
+[02/Oct/2013:01:50:08] ENGINE Bus STARTING
+[02/Oct/2013:01:50:08] ENGINE Set handler for console events.
+[02/Oct/2013:01:50:08] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:01:50:08] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:01:50:08] ENGINE Bus STARTED
+[02/Oct/2013:01:52:32] ENGINE Listening for SIGTERM.
+[02/Oct/2013:01:52:32] ENGINE Bus STARTING
+[02/Oct/2013:01:52:32] ENGINE Set handler for console events.
+[02/Oct/2013:01:52:32] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:01:52:32] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:01:52:32] ENGINE Bus STARTED
+[02/Oct/2013:01:52:54] ENGINE Listening for SIGTERM.
+[02/Oct/2013:01:52:54] ENGINE Bus STARTING
+[02/Oct/2013:01:52:54] ENGINE Set handler for console events.
+[02/Oct/2013:01:52:54] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:01:52:55] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:01:52:55] ENGINE Bus STARTED
+[02/Oct/2013:01:55:21] ENGINE Listening for SIGTERM.
+[02/Oct/2013:01:55:21] ENGINE Bus STARTING
+[02/Oct/2013:01:55:21] ENGINE Set handler for console events.
+[02/Oct/2013:01:55:21] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:01:55:21] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:01:55:21] ENGINE Bus STARTED
+[02/Oct/2013:01:57:21] ENGINE Listening for SIGTERM.
+[02/Oct/2013:01:57:21] ENGINE Bus STARTING
+[02/Oct/2013:01:57:21] ENGINE Set handler for console events.
+[02/Oct/2013:01:57:21] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:01:57:21] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:01:57:21] ENGINE Bus STARTED
+[02/Oct/2013:01:58:39] ENGINE Listening for SIGTERM.
+[02/Oct/2013:01:58:39] ENGINE Bus STARTING
+[02/Oct/2013:01:58:39] ENGINE Set handler for console events.
+[02/Oct/2013:01:58:39] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:01:58:39] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:01:58:39] ENGINE Bus STARTED
+[02/Oct/2013:02:01:00] ENGINE Listening for SIGTERM.
+[02/Oct/2013:02:01:00] ENGINE Bus STARTING
+[02/Oct/2013:02:01:00] ENGINE Set handler for console events.
+[02/Oct/2013:02:01:00] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:02:01:00] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:02:01:00] ENGINE Bus STARTED
+[02/Oct/2013:02:02:31] ENGINE Listening for SIGTERM.
+[02/Oct/2013:02:02:31] ENGINE Bus STARTING
+[02/Oct/2013:02:02:31] ENGINE Set handler for console events.
+[02/Oct/2013:02:02:31] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:02:02:31] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:02:02:31] ENGINE Bus STARTED
+[02/Oct/2013:02:07:25] ENGINE Listening for SIGTERM.
+[02/Oct/2013:02:07:25] ENGINE Bus STARTING
+[02/Oct/2013:02:07:25] ENGINE Set handler for console events.
+[02/Oct/2013:02:07:25] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:02:07:25] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:02:07:25] ENGINE Bus STARTED
+[02/Oct/2013:02:10:01] ENGINE Listening for SIGTERM.
+[02/Oct/2013:02:10:01] ENGINE Bus STARTING
+[02/Oct/2013:02:10:01] ENGINE Set handler for console events.
+[02/Oct/2013:02:10:01] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:02:10:01] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:02:10:01] ENGINE Bus STARTED
+[02/Oct/2013:02:11:18] ENGINE Listening for SIGTERM.
+[02/Oct/2013:02:11:18] ENGINE Bus STARTING
+[02/Oct/2013:02:11:18] ENGINE Set handler for console events.
+[02/Oct/2013:02:11:18] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:02:11:19] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:02:11:19] ENGINE Bus STARTED
+[02/Oct/2013:02:12:02] ENGINE Listening for SIGTERM.
+[02/Oct/2013:02:12:02] ENGINE Bus STARTING
+[02/Oct/2013:02:12:02] ENGINE Set handler for console events.
+[02/Oct/2013:02:12:02] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:02:12:03] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:02:12:03] ENGINE Bus STARTED
+[02/Oct/2013:02:13:26] ENGINE Listening for SIGTERM.
+[02/Oct/2013:02:13:26] ENGINE Bus STARTING
+[02/Oct/2013:02:13:26] ENGINE Set handler for console events.
+[02/Oct/2013:02:13:26] ENGINE Started monitor thread '_TimeoutMonitor'.
+[02/Oct/2013:02:13:26] ENGINE Serving on 0.0.0.0:8099
+[02/Oct/2013:02:13:26] ENGINE Bus STARTED
+[03/Oct/2013:10:16:32] ENGINE Listening for SIGTERM.
+[03/Oct/2013:10:16:32] ENGINE Bus STARTING
+[03/Oct/2013:10:16:32] ENGINE Set handler for console events.
+[03/Oct/2013:10:16:32] ENGINE Started monitor thread '_TimeoutMonitor'.
+[03/Oct/2013:10:16:32] ENGINE Serving on 0.0.0.0:8099
+[03/Oct/2013:10:16:32] ENGINE Bus STARTED
+[03/Oct/2013:10:19:04] ENGINE Listening for SIGTERM.
+[03/Oct/2013:10:19:04] ENGINE Bus STARTING
+[03/Oct/2013:10:19:04] ENGINE Set handler for console events.
+[03/Oct/2013:10:19:04] ENGINE Started monitor thread '_TimeoutMonitor'.
+[03/Oct/2013:10:19:04] ENGINE Serving on 0.0.0.0:8099
+[03/Oct/2013:10:19:04] ENGINE Bus STARTED
+[03/Oct/2013:10:22:45] ENGINE Listening for SIGTERM.
+[03/Oct/2013:10:22:45] ENGINE Bus STARTING
+[03/Oct/2013:10:22:45] ENGINE Set handler for console events.
+[03/Oct/2013:10:22:45] ENGINE Started monitor thread '_TimeoutMonitor'.
+[03/Oct/2013:10:22:45] ENGINE Serving on 0.0.0.0:8099
+[03/Oct/2013:10:22:45] ENGINE Bus STARTED
+[03/Oct/2013:10:23:52] ENGINE Listening for SIGTERM.
+[03/Oct/2013:10:23:52] ENGINE Bus STARTING
+[03/Oct/2013:10:23:52] ENGINE Set handler for console events.
+[03/Oct/2013:10:23:52] ENGINE Started monitor thread '_TimeoutMonitor'.
+[03/Oct/2013:10:23:52] ENGINE Serving on 0.0.0.0:8099
+[03/Oct/2013:10:23:52] ENGINE Bus STARTED
+[03/Oct/2013:10:25:04] ENGINE Listening for SIGTERM.
+[03/Oct/2013:10:25:04] ENGINE Bus STARTING
+[03/Oct/2013:10:25:04] ENGINE Set handler for console events.
+[03/Oct/2013:10:25:04] ENGINE Started monitor thread '_TimeoutMonitor'.
+[03/Oct/2013:10:25:04] ENGINE Serving on 0.0.0.0:8099
+[03/Oct/2013:10:25:04] ENGINE Bus STARTED
+[03/Oct/2013:10:26:02] ENGINE Listening for SIGTERM.
+[03/Oct/2013:10:26:02] ENGINE Bus STARTING
+[03/Oct/2013:10:26:02] ENGINE Set handler for console events.
+[03/Oct/2013:10:26:02] ENGINE Started monitor thread '_TimeoutMonitor'.
+[03/Oct/2013:10:26:03] ENGINE Serving on 0.0.0.0:8099
+[03/Oct/2013:10:26:03] ENGINE Bus STARTED
+[03/Oct/2013:10:34:35] ENGINE Listening for SIGTERM.
+[03/Oct/2013:10:34:35] ENGINE Bus STARTING
+[03/Oct/2013:10:34:35] ENGINE Set handler for console events.
+[03/Oct/2013:10:34:35] ENGINE Started monitor thread '_TimeoutMonitor'.
+[03/Oct/2013:10:34:36] ENGINE Serving on 0.0.0.0:8099
+[03/Oct/2013:10:34:36] ENGINE Bus STARTED
+[27/Jun/2014:19:06:59] ENGINE Listening for SIGTERM.
+[27/Jun/2014:19:06:59] ENGINE Bus STARTING
+[27/Jun/2014:19:06:59] ENGINE Set handler for console events.
+[27/Jun/2014:19:06:59] ENGINE Started monitor thread '_TimeoutMonitor'.
+[27/Jun/2014:19:07:04] ENGINE Error in 'start' listener <bound method Server.start of <cherrypy._cpserver.Server object at 0x0000000003250320>>
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\process\wspbus.py", line 197, in publish
+    output.append(listener(*args, **kwargs))
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\_cpserver.py", line 151, in start
+    ServerAdapter.start(self)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\process\servers.py", line 168, in start
+    wait_for_free_port(*self.bind_addr)
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\process\servers.py", line 412, in wait_for_free_port
+    raise IOError("Port %r not free on %r" % (port, host))
+IOError: Port 8099 not free on '0.0.0.0'
+
+[27/Jun/2014:19:07:04] ENGINE Shutting down due to error in start listener:
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\process\wspbus.py", line 235, in start
+    self.publish('start')
+  File "C:\Python27\lib\site-packages\cherrypy-3.2.4-py2.7.egg\cherrypy\process\wspbus.py", line 215, in publish
+    raise exc
+ChannelFailures: IOError("Port 8099 not free on '0.0.0.0'",)
+
+[27/Jun/2014:19:07:04] ENGINE Bus STOPPING
+[27/Jun/2014:19:07:04] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8099)) already shut down
+[27/Jun/2014:19:07:04] ENGINE Removed handler for console events.
+[27/Jun/2014:19:07:04] ENGINE Stopped thread '_TimeoutMonitor'.
+[27/Jun/2014:19:07:04] ENGINE Bus STOPPED
+[27/Jun/2014:19:07:04] ENGINE Bus EXITING
+[27/Jun/2014:19:07:04] ENGINE Bus EXITED
+[27/Jun/2014:19:07:34] ENGINE Listening for SIGTERM.
+[27/Jun/2014:19:07:34] ENGINE Bus STARTING
+[27/Jun/2014:19:07:34] ENGINE Set handler for console events.
+[27/Jun/2014:19:07:34] ENGINE Started monitor thread '_TimeoutMonitor'.
+[27/Jun/2014:19:07:34] ENGINE Serving on 0.0.0.0:8072
+[27/Jun/2014:19:07:34] ENGINE Bus STARTED
